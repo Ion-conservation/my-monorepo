@@ -1,6 +1,6 @@
 {
   "name": "tool-man",
-  "version": "1.0.2-alpha.0",
+  "version": "1.0.3-alpha.0",
   "author": "YiKe <17905840@qq.com>",
   "description": "tool man 作为 Monorepo 中的工具库存在",
   "main": "toolMan.js",
