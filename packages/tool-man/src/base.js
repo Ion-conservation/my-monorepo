@@ -66,3 +66,11 @@ export function getRandomArray(length) {
   }
   return array;
 }
+
+/**
+ *
+ * @returns {string}
+ */
+export function getDay() {
+  return new Date().getDay();
+}

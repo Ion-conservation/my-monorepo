@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
-import { getInstanceOfTarget } from 'tool-man';
+import { getInstanceOfTarget, getRandomArray } from 'tool-man';
 
 console.log(getInstanceOfTarget(1, Number));
+console.log(getRandomArray(1));
 </script>
 
 <template>
