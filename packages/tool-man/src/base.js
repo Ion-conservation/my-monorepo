@@ -17,3 +17,11 @@ export function getTypeofTarget(target) {
 export function getInstanceOfTarget(target, constructor) {
   return target instanceof constructor;
 }
+
+/**
+ *
+ * @param {string} name
+ */
+export function sayHello(name) {
+  console.log(`hello, ${name}`);
+}
