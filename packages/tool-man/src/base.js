@@ -52,3 +52,17 @@ export function getRandomString(length) {
     result += characters.charAt(randomIndex);
   }
 }
+
+/**
+ * 生成指定长度的随机数组
+ *
+ * @param {number} length 数组的长度
+ * @returns {number[]} 由随机数构成的数组
+ */
+export function getRandomArray(length) {
+  const array = [];
+  for (let i = 0; i < length; i++) {
+    array.push(getRandomNumber(1, 100));
+  }
+  return array;
+}
