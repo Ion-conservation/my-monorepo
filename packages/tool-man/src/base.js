@@ -36,3 +36,19 @@ export function sayHello(name) {
 export function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+/**
+ * 生成指定长度的随机字符串
+ * @param {number} length - 随机字符串的长度
+ * @returns {string} 生成的随机字符串
+ */
+export function getRandomString(length) {
+  const characters =
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let result = '';
+
+  for (let i = 0; i < length; i++) {
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    result += characters.charAt(randomIndex);
+  }
+}
