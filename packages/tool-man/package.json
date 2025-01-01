@@ -1,6 +1,7 @@
 {
   "name": "tool-man",
   "version": "1.0.1-alpha.0",
+  "author": "YiKe <17905840@qq.com>",
   "description": "tool man 作为 Monorepo 中的工具库存在",
   "main": "toolMan.js",
   "type": "module",
@@ -11,7 +12,6 @@
     "build-esm": "rollup -c"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "rollup": "^4.29.1"

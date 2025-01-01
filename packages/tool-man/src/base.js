@@ -25,3 +25,14 @@ export function getInstanceOfTarget(target, constructor) {
 export function sayHello(name) {
   console.log(`hello, ${name}`);
 }
+
+/**
+ * 生成指定范围内的随机整数
+ *
+ * @param {number} min - 随机数范围的最小值（包含）
+ * @param {number} max - 随机数范围的最大值（包含）
+ * @returns {number} - 在指定范围内的随机整数
+ */
+export function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
