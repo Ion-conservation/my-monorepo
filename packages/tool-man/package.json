@@ -1,6 +1,6 @@
 {
   "name": "tool-man",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.1-alpha.0",
   "description": "tool man 作为 Monorepo 中的工具库存在",
   "main": "toolMan.js",
   "type": "module",
